@@ -72,7 +72,7 @@ public class CustomList extends ArrayAdapter<City> {
        if (!cities.contains(city)) {
             throw new IllegalArgumentException();
         }
-        cities.remove(city); 
+        cities.remove(city);
     }
 
     /**
@@ -80,9 +80,11 @@ public class CustomList extends ArrayAdapter<City> {
      *
      * return the number
      */
-
     public int countCities() {
-        int Num = cities.size();
+
+/*        int Num = cities.size();
         return Num;
+         */
+
     }
 }

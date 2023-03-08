@@ -41,7 +41,7 @@ public class CustomListTest {
         assertEquals(0,list.getCount());
 
     }
-/*
+
     @Test
     public void testCountCities(){
         CustomList list = new CustomList(null,new ArrayList<>());
@@ -50,6 +50,6 @@ public class CustomListTest {
         assertEquals(1,list.getCount());
 
     }
-*/
+
 
 }
